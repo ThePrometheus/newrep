@@ -12,12 +12,12 @@ int pushed=0;
 			
 			
 		}
-		length=inner.line;
+		length=inner.length;
 	}
 	DArray(int n){
 		inner=new int[n];
 		for(int i=0;i<n;i++){
-			inner[i-1]=-1;
+			inner[i]=-1;
 			
 		}
 		length=inner.length;
